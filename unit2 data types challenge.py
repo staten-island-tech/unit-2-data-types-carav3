@@ -10,4 +10,8 @@ x = "this is a thing"
 y = x.split( )
 z = y[0]
 print(y)
-print(z) 
+print(z)
+
+x = 3
+y = float(3)
+print(x,y)
