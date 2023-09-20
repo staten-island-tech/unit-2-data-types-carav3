@@ -1,17 +1,12 @@
-values = [1,2.23,5,7,2,30,15]
-print(values)
-for i in values:
-    print(i)
+#challenge #1 code below
 
-print(values[0])
-print(values[6])
+x = input
 
-x = "this is a thing"
+x = input("Type in a sentence.")
+print("Your sentence is" + x)
+
 y = x.split( )
-z = y[0]
 print(y)
-print(z)
-
-x = 3
-y = float(3)
-print(x,y)
+ 
+#count the number of words in the sentence.
+#print ("The number of words in your sentence is:"    )
