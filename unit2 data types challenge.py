@@ -7,6 +7,13 @@ print("Your sentence is" + x)
 
 y = x.split( )
 print(y)
- 
-#count the number of words in the sentence.
-#print ("The number of words in your sentence is:"    )
+
+z = len(y)
+print(z)
+
+
+#challenge 2
+a = input
+
+a = input("Give me a number, and I'll say if it's odd or even.")
+
