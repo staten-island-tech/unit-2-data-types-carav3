@@ -56,16 +56,6 @@ else:
     print("Unable to give a tip calculation. Try again.")
 
 
-#challenge 5
-#get a list of factors for one number and the other number
-#compare the two lists, take each individual list and match up the factors
-#for loop to go through one list of numbers
-#check if the number is in the other list.  by writing "in"
-#if x in...
-
-#add numbers to a list???
-
-
 # challenge 4
 #REVIEW THIS
 factors = set()
@@ -76,3 +66,21 @@ for a in range(1, n + 1):
     if n % a == 0:  # remainder is zero
         factors.add(a)
 print("Factors of {} are {}".format(n, factors))
+
+
+#challenge 5
+#get a list of factors for one number and the other number
+#compare the two lists, take each individual list and match up the factors
+#for loop to go through one list of numbers
+#check if the number is in the other list.  by writing "in"
+#if x in...
+
+#add numbers to a list???
+
+factors = set()
+y = input("Give me your first number.")
+t = int(y)
+
+for a in range(1, n +1):
+    if t % a == 0: 
+        
