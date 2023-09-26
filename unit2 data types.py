@@ -14,10 +14,6 @@ z = y[0]
 print(y)
 print(z) 
 
-#a = len(input)
-#make a code for counting the letters in the input sentence
-#I'm not sure how to do this part.
-#print("The number of letters in your sentence are:"{a})
 
 
 #booleans and control flow
