@@ -83,4 +83,15 @@ t = int(y)
 
 for a in range(1, n +1):
     if t % a == 0: 
-        
+        factors.add(a)
+print("Factors (1st number) of {} are {}".format(n, factors))
+
+factors = set()
+p = input("Give me your second number.")
+u = int(p)
+
+for b in range(1, n +1):
+    if u % b == 0:
+        factors.add(b)
+print("Factors (2nd number) of {} are {}".format(n, factors))
+

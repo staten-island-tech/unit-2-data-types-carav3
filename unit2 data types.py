@@ -34,3 +34,10 @@ elif temp == 68:
     print('perfect')
 else:
     print('cold')
+
+
+
+
+
+
+
