@@ -68,7 +68,8 @@ for a in range(1, n + 1):
 print("Factors of {} are {}".format(n, factors))
 
 
-#challenge 5
+#challenge 5 (below)
+
 #get a list of factors for one number and the other number
 #compare the two lists, take each individual list and match up the factors
 #for loop to go through one list of numbers
@@ -84,7 +85,7 @@ t = int(y)
 for a in range(1, t +1):
     if t % a == 0: 
         factors.add(a)
-print("Factors (1st number) of {} are {}".format(n, factors))
+print("Factors (1st number) of {} are {}".format(t, factors))
 
 factors = set()
 p = input("Give me your second number.")
@@ -93,11 +94,8 @@ u = int(p)
 for b in range(1, u +1):
     if u % b == 0:
         factors.add(b)
-print("Factors (2nd number) of {} are {}".format(n, factors))
+print("Factors (2nd number) of {} are {}".format(u, factors))
 
-l1 = t
-l2 = u
 
-l1.sort()
-l2.sort()
-
+if t in u:
+    print("The factors of both number are {}".format(factors))
