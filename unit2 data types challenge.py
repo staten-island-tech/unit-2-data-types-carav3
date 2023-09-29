@@ -57,7 +57,7 @@ else:
 
 
 # challenge 4
-#REVIEW THIS
+#REVIEW THIS***
 factors = set()
 m = input("Give me a number.")
 n = int(m)
@@ -97,5 +97,7 @@ for b in range(1, u +1):
 print("Factors (2nd number) of {} are {}".format(u, factors))
 
 
-if t in u:
-    print("The factors of both number are {}".format(factors))
+li1 = t.split()
+li2 = u.split()
+
+print(li1)
