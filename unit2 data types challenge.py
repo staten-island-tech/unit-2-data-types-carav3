@@ -19,8 +19,6 @@ print(z)
 # // = number of whole numbers in the answer
 #USE INT TO CONVERT IT
 
-a = input
-
 a = input("Give me a number, and I'll say if it's odd or even.")
 
 x = int(a)

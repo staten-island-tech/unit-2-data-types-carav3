@@ -1,0 +1,6 @@
+verbone = ("Give me a verb.")
+verbtwo = ("Another verb?")
+verbthree = ("One more.")
+noun = ("Now one noun (person, place, or thing)")
+num = ("A number?")
+celeb = ("Now a celebrity guest.")
