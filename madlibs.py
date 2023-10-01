@@ -3,7 +3,7 @@ print ("")
 
 verbone = input("Give me a verb (action word) describing your favorite activity.")
 verbtwo = input("Another verb, for something you wish you could be doing right now?")
-verbthree = input("One more, for your least favorite extracurricular activity.")
+verbthree = input("One more, for your least favorite extracurricular activity, ending in -ing.")
 noun = input("Your least favorite imaginary place?")
 num = input("The age that you think you'll live up to?")
 celeb = input("Now, your favorite celebrity.")
