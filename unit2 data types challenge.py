@@ -4,7 +4,7 @@
 x = input
 
 x = input("Type in a sentence.")
-print("Your sentence is" + x)
+print("Your sentence is " + x)
 
 y = x.split( )
 print(y)
@@ -12,6 +12,7 @@ print(y)
 z = len(y)
 print(z)
 
+quit()
 
 #challenge 2 - learning "modulo"
 #notes below...
