@@ -9,3 +9,9 @@ print(b)
 GCF = [1, 8, 4, 3]
 c = max(GCF)
 print(c)
+
+
+#more gcf notes
+for i in (2,y):
+    if x%i(2)==0 and y%i==0:
+        ()add i to list
